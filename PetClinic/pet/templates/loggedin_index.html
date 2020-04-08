@@ -1,0 +1,37 @@
+<html>
+    <head>
+        {% if title %}
+        <title>{{ title }} - microblog</title>
+        {% else %}
+        <title>pet</title>
+        {% endif %}
+    </head>
+    <body>
+        <div>
+
+            <h1>Pet Hospital</h1>
+            <div aria-orientation="horizontal" align="center">
+                <a href="{{ url_for('index') }}">Home</a>
+                <a href="pets_tips.html">Pets Tips</a>
+                <a href="pet_shop.html">Pets Shop</a>
+                <a href="{{url_for('about')}}">about us</a>
+            </div>
+            <br><br><br><br>
+
+            <div align="right">
+                <a href="{{url_for('logoutEmployee')}}">Log out</a>
+            </div>
+        </div>
+        <hr>
+        {% with messages = get_flashed_messages() %}
+        {% if messages %}
+        <ul>
+            {% for message in messages %}
+            <li>{{ message }}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+        {% endwith %}
+        {% block content %}{% endblock %}
+    </body>
+</html>

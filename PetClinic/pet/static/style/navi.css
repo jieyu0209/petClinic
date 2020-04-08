@@ -1,0 +1,95 @@
+
+#navi {
+    background: linear-gradient(white,turquoise);
+    margin-top: 6%;
+    height: 30px;
+    
+}
+
+#title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 3%;
+    margin-top: 3%;
+    color: teal;
+    
+}
+
+
+#navi > a{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 6%;
+    margin-bottom: 0%;
+    align-self: center;
+    color: teal;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: large;
+}
+
+#logNavi > ul > li >button{
+    font-family: 'Courier New', Courier, monospace;
+    
+    margin-top: 30%;
+    text-decoration: none;
+    color: teal;
+    font-weight: 700;
+    background: linear-gradient(white,turquoise);
+    border-radius: 5px;
+    font-size: medium;
+    border: none;
+    width: 110%;
+}
+
+#logNavi > ul > li {
+    list-style-type: none;
+}
+
+#logNavi {
+    position: fixed;
+    bottom: 60px;
+    right: 20px;
+}
+
+#typeNavi > a {
+    
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(turquoise,white);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+#typeNavi {
+    orientation: vertical;
+}
+
+#top {
+    width: 100%;
+    
+    
+    box-shadow: 5px 5px 5px lightgray ;
+}
+
+#im {
+    background-color: rgba(255, 255, 255, 0.335);
+    
+}
+ 
+#side {
+    position: relative;
+}
+
+body {
+    background-color:white;
+}
+
+#img1 {
+    margin-right: 12%;
+    margin-bottom: 18%;
+}
+
+#img2 {
+    margin-left: 12%;
+    margin-bottom: 18%;
+}
+
+
